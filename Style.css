@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9b4c4c; /* Latar belakang pink muda */
+}
+
+header {
+    background: #e26973; /* Warna header pink */
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background: #daacb7; /* Latar belakang hero pink */
+    border-radius: 8px;
+    margin: 10px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.kategori {
+    padding: 20px;
+    text-align: center;
+}
+
+.kategori-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kategori-card {
+    background: #cf84a4; /* Kartu kategori pink */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.kategori-card:hover {
+    transform: scale(1.05);
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #f1abc4; /* Warna heading pink */
+}
+
+.produk {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: #e2b9b9;
+    border: 1px solid #f34040;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.harga {
+    font-weight: bold;
+    color: #b8033f; /* Warna harga pink */
+}
+
+.link-belanja {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #e61d7b; /* Warna tombol hijau */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-belanja:hover {
+    background: #660727; /* Warna hover tombol hijau lebih gelap */
+}
+
+.testimonial {
+    background: #b389a4; /* Latar belakang testimonial */
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin: 10px 0;
+}
+
+.contact {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link-contact {
+    color: #2991ff;
+    text-decoration: none;
+}
+
+.link-contact:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ca4d77; /* Warna footer pink */
+    color: #ddc0c0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
